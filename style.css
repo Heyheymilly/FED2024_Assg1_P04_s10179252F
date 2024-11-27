@@ -72,7 +72,7 @@
 
 .enter-button {
     position: absolute;   /* Absolute position within the .hero */
-    bottom: 60px;         /* Move it 20px from the bottom of the hero section */
+    bottom: 100px;         /* Move it 20px from the bottom of the hero section */
     left: 50%;            /* Center horizontally */
     transform: translateX(-50%);  /* Ensure it's centered */
     background-color: #2C3E50;  /* Deep blue-teal */
@@ -95,4 +95,17 @@
 /* Hover effect - lighter yellow */
 .enter-button:hover {
     background-color: #1e334a; 
+}
+
+.copyright {
+        position: fixed;  /* Fix the footer at the bottom */
+        bottom: 0;        /* Align it at the bottom of the page */
+        left: 0;          /* Align it to the left edge */
+        width: 100%;      /* Make the footer span the full width of the page */
+        text-align: center;  /* Center the text horizontally */
+        padding: 20px 0;     /* Add some space around the text */
+        background-color: transparent;  /* Dark background */
+        color: white;          /* White text */
+        font-family: 'Times New Roman', Times, serif;  /* Choose your font */
+        font-size: 14px;       /* Adjust the font size as needed */
 }
