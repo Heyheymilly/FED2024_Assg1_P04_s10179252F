@@ -117,7 +117,7 @@ body {
 }
 
 .slide-show-container {
-	padding: 2rem;
+	padding: 5rem;
     scroll-behavior: smooth;
     display:flex;
     position:relative;
@@ -434,22 +434,7 @@ body {
 
 /* FOOTER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.page-footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  z-index: 2;
-  color: var(--black);
-  background: var(--columbia-blue);
-}
 
-.page-footer a {
-  display: flex;
-  margin-left: 4px;
-}
 
  /* fun facts */
 
@@ -498,4 +483,47 @@ font-size: 1.2rem;
     background-color: #0056b3;
   }
   
+
+.bio-container {
+    display:flex;
+    width: 100vw
+}
+.biography {
+    display:flex;
+    width: 50vw;
+    flex-direction: column;
+    background-color: black;
+    height: 400px;
+    gap:20px;
+
+}
+
+.biography-left {
+    display:flex;
+    background-color: white;
+
+
+}
+
+.background-video{
+    margin-left:0 auto;
+    height:400px;
+}
+
+.biography-right-top{
+    width: 50vw;
+    background-color: grey;
+    height: 100px;  
+}
+
+.biography-right-bottom{
+    width: 50vw;
+    background-color: blue;
+    flex:1 ;
+    
+
+    
+}
+
+
 
