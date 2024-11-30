@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home|blonded</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,675;1,675&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+    <header>
+    <section class="header-flexbox">
+        <nav class="navbar">
+<div class="nav-logo">
+    <a href="#">Frank Ocean</a>
+</div>
+<ul class="nav-links">
+    <li><a href="about.html">About</a></li>
+    <li><a href="music.html">Music</a></li>
+    <li><a href="events.html">Events</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+        </nav>
+    <section class="live-video-header">
+        <div class="live-video-overlay">
+          <video autoplay muted loop playsinline class="live-video">
+            <source src="media/events-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <div class="live-text-overlay">
+            YOU DON’T GOTTA BE SOLO
+          </div>
+        </div>
+    </section>
+</header>
+
+
+<main>
+    <div class="live-gallery-dropdown">
+        <label for="live-event-selector">Join Frank in:</label>
+        <select id="live-event-selector">
+            <option value="">Select a City</option>
+            <option value="ny">New York (NY)</option>
+            <option value="la">Los Angeles (LA)</option>
+            <option value="ldn">London (LDN)</option>
+        </select>
+    </div>
+    
+    <div id="live-gallery-container" class="hidden">
+        <!-- New York (NY) Images -->
+        <div class="live-gallery-item live-ny"><img src="media/FYF-1.jpg" alt="NY Event Image 1"></div>
+        <div class="live-gallery-item live-ny"><img src="media/fyf-2.jpg" alt="NY Event Image 2"></div>
+        <div class="live-gallery-item live-ny"><img src="media/fyf-3.jpg" alt="NY Event Image 3"></div>
+        <div class="live-gallery-item live-ny"><img src="media/fyf-4.jpg" alt="NY Event Image 4"></div>
+
+        <!-- Los Angeles (LA) Images -->
+        <div class="live-gallery-item live-la"><img src="media/LA-1.jpg" alt="LA Event Image 1"></div>
+        <div class="live-gallery-item live-la"><img src="media/LA-2.jpg" alt="LA Event Image 2"></div>
+
+        <!-- London (LDN) Images -->
+        <div class="live-gallery-item live-ldn"><img src="media/LDN-1.jpg" alt="LDN Event Image 1"></div>
+        <div class="live-gallery-item live-ldn"><img src="media/LDN-2.jpg" alt="LDN Event Image 2"></div>
+    </div>
+
+
+    
+</main>
+
+    <footer class="copyright">
+
+        © 2024 Blonde Tribute. All Rights Reserved. Unauthorized reproduction prohibited. Licensed by Blonded Records.
+
+
+
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
