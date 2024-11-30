@@ -11,7 +11,7 @@ html {
   position: relative;
 }
 
-.hero-overlay-text {
+.hero-text-overlay {
   position: absolute; 
   top: 0;
   left: 0;
@@ -154,7 +154,6 @@ font-size:50px;
   --black: #323135; 
   --crystal: #a8dadd; 
   --columbia-blue: #6f779e; 
-  --midnight-green: transparent;
   --yellow: #e5f33d; 
 }
 
@@ -476,10 +475,10 @@ font-size: 1.3rem;
   padding: 20px;
   background: #8b94c2; 
   border-bottom: 2px solid #e5f33d; 
-  animation: pulse 2s infinite; 
+  animation: biography-left-pulse 2s infinite; 
 }
 
-@keyframes pulse {
+@keyframes biography-left-pulse {
   0%, 100% {
     background: #8b94c2; 
   }
@@ -625,10 +624,10 @@ font-size: 1.3rem;
 
 
 .gallery-item img:hover {
-  animation: pulse 1s infinite; 
+  animation: gallery-image-pulse 1s infinite; 
 }
 
-@keyframes pulse {
+@keyframes gallery-image-pulse {
   0% {
     transform: scale(1.05);
   }
@@ -682,6 +681,7 @@ font-size: 1.3rem;
   position: absolute;
   top: 0;
   left: 0;
+  z-index:1;
 }
 
 .live-text-overlay {
