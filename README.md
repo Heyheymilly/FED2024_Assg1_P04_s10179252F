@@ -61,6 +61,9 @@ Visual Studio Code: Chosen as the IDE for development due to its clean interface
 
 
 Content
+I generated my paragraphs using ChatGpt
+
+
 Media
 NY concert images: https://www.latimes.com/entertainment/music/la-et-ms-fyf-fest-frank-ocean-review-20170723-story.html
 
