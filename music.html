@@ -5,190 +5,224 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home|blonded</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,675;1,675&display=swap" rel="stylesheet">    <link rel="stylesheet" href="style.css"> 
-
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,675;1,675&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <section class="header-flexbox">
-            <nav class="navbar">
-    <div class="nav-logo">
-        <a href="#">Frank Ocean</a>
-    </div>
-    <ul class="nav-links">
-        <li><a href="about.html">About</a></li>
-        <li><a href="music.html">Music</a></li>
-        <li><a href="events.html">Events</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-            
+        <section class="nav-bar-wrapper">
+            <nav class="nav-bar"> <!-- Navigation bar with site links -->
+                <div class="nav-logo">
+                    <a href="https://www.homer.com/">Frank Ocean</a> <!-- Logo with clickable link -->
+                </div>
+                <ul class="nav-links"> <!--Navigation Buttons-->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </nav>
         </section>
-        </header>
-
-
-
+        </div>
+        <div class="social-media-icons"> <!-- Social Media Links -->
+            <a href="https://youtube.com" target="_blank">
+                <img src="media/youtube-icon.png" alt="Youtube" class="icon">
+            </a>
+            <a href="https://facebook.com" target="_blank">
+                <img src="media/facebook-icon.png" alt="Facebook" class="icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="media/instagram-icon.png" alt="Instagram" class="icon">
+            </a>
+        </div>
+    </header>
+    <!-- Main Content Section -->
     <main>
-        <main>
-            <section class="image-gallery">
-                <div class="gallery-item">
-                    <a href="#channel-orange">
-                        <img src="media/channel-orange.jpg" alt="Image 1">
-                    </a>
-                </div>
-                <div class="gallery-item">
-                    <a href="#nostalgia-ultra" class="gallery-item">
+        <!-- Image Gallery -->
+        <section class="image-gallery">
+            <div class="gallery-item">
+                <a href="#channel-orange">
+                    <img src="media/channel-orange.jpg" alt="Image 1">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#nostalgia-ultra">
                     <img src="media/nostalgia-ultra.jpg" alt="Image 2">
-                    </a>
-                </div>
-                <div class="gallery-item">
-                    <a href="#blonde" class="gallery-item">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#blonde">
                     <img src="media/blonde.jpeg" alt="Image 3">
-                    </a>
-                </div>
-                <div class="gallery-item">
-                    <a href="#endless" class="gallery-item">
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="#endless">
                     <img src="media/endless.jpg" alt="Image 4">
-                    </a>
+                </a>
+            </div>
+        </section>
+        <!-- Nostalgia Ultra Album Section -->
+        <section id="nostalgia-ultra" class="album-section">
+            <div class="album-content"> 
+                <div class="album-media" style="position: relative; display: inline-block;"><!--This section includes picture and spotify player-->
+                    <img src="media/nostalgia-ultra.jpg" alt="Channel Orange Album Cover" style="display: block; margin: 0 auto; transform: scale(0.65); border-radius: 12px;">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3rorQdgQsyv7h2x9W9Q6wJ?utm_source=generator" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
-            </section>
+                <div class="album-details"> <!--Description + Track list-->
+                    <p>
+                        Nostalgia, Ultra is Frank Ocean's debut mixtape, released in 2011. It combines alternative R&B with themes of love, heartbreak, and introspection.
+                        The mixtape features standout tracks like "Novacane," "Swim Good," and "We All Try," highlighting Frank's soulful storytelling and unique vocal style.
+                        *Nostalgia, Ultra* became a cult favorite, solidifying Ocean's place in modern music and setting the stage for his future groundbreaking works.
+                    </p>
+                    <div class="tracklist-container">
+                        <ul class="tracklist">
+                            <li>1. Street Fighter / BMW</li>
+                            <li>2. Strawberry Swing</li>
+                            <li>3. Novacane</li>
+                            <li>4. We All Try</li>
+                            <li>5. Bitches Talkin'</li>
+                            <li>6. Songs for Women</li>
+                        </ul>
+                        <ul class="tracklist">
+                            <li>7. Lovecrimes</li>
+                            <li>8. Goldeneye</li>
+                            <li>9. There Will Be Tears</li>
+                            <li>10. Swim Good</li>
+                            <li>11. Dust</li>
+                            <li>12. American Wedding</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Channel Orange Album Section -->
+        <section id="channel-orange" class="album-section">
+            <div class="album-content">
+                <div class="album-media" style="position: relative; display: inline-block;"> <!--This section includes picture and spotify player-->
+                    <img src="media/channel-orange.jpg" alt="Channel Orange Album Cover" style="display: block; margin: 0 auto; transform: scale(0.65); border-radius: 12px;">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/3GZD6HmiNUhxXYf8Gch723?utm_source=generator" width="30%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="album-details"> <!--Description + Track list-->
+                    <p>
+                        Channel Orange is Frank Ocean's groundbreaking debut studio album, released in 2012. It’s a genre-defying blend of R&B, funk, and soul,
+                        tackling themes of love, unrequited feelings, and self-discovery. Featuring hits like "Thinkin Bout You" and "Pyramids," it showcases
+                        Ocean's poetic lyricism and storytelling. The album earned critical acclaim, won a Grammy for Best Urban Contemporary Album,
+                        and cemented Ocean’s reputation as a visionary artist redefining contemporary music.
+                    </p>
+                    <div class="tracklist-container">
+                        <ul class="tracklist">
+                            <li>1. Start</li>
+                            <li>2. Thinkin Bout You</li>
+                            <li>3. Fertilizer</li>
+                            <li>4. Sierra Leone</li>
+                            <li>5. Sweet Life</li>
+                            <li>6. Not Just Money</li>
+                            <li>7. Super Rich Kids</li>
+                            <li>8. Pilot Jones</li>
+                        </ul>
+                        <ul class="tracklist">
+                            <li>9. Crack Rock</li>
+                            <li>10. Pyramids</li>
+                            <li>11. Lost</li>
+                            <li>12. White</li>
+                            <li>13. Monks</li>
+                            <li>14. Bad Religion</li>
+                            <li>15. Pink Matter</li>
+                            <li>16. Forrest Gump</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section id="endless" class="album-section"><!-- Endless Album Section -->
+            <div class="album-content">
+                <div class="album-media" style="position: relative; display: inline-block;"> <!--This section includes picture and spotify player-->
+                    <img src="media/endless.jpg" alt="Channel Orange Album Cover" style="display: block; margin: 0 auto; transform: scale(0.65); border-radius: 12px;">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/5SSK1z32BolEjXl0YvlgSQ?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="album-details"> <!--Description + Track list-->
+                    <p>
+                        Endless is Frank Ocean's 2016 visual album, released exclusively as a streaming video. Its experimental soundscape features raw instrumentals,
+                        live arrangements, and abstract themes. Tracks like "Higgs" and "At Your Best (You Are Love)" showcase Ocean’s innovative artistry
+                        and emotional depth. The album was a stepping stone to *Blonde*, representing Frank’s creative journey in one continuous stream
+                        of audio-visual storytelling.
+                    </p>
+                    <div class="tracklist-container">
+                        <ul class="tracklist">
+                            <li>1. Device Control</li>
+                            <li>2. At Your Best (You Are Love)</li>
+                            <li>3. Alabama</li>
+                            <li>4. Mine</li>
+                            <li>5. U-N-I-T-Y</li>
+                            <li>6. Ambience 001: In a Certain Way</li>
+                            <li>7. Commes des Garçons</li>
+                            <li>8. Ambience 002: Honeybaby</li>
+                            <li>9. Wither</li>
+                        </ul>
+                        <ul class="tracklist">
+                            <li>10. Hublots</li>
+                            <li>11. In Here Somewhere</li>
+                            <li>12. Slide On Me</li>
+                            <li>13. Sideways</li>
+                            <li>14. Florida</li>
+                            <li>15. Deathwish (ASR)</li>
+                            <li>16. Rushes</li>
+                            <li>17. Rushes To</li>
+                            <li>18. Higgs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-            <section id="channel-orange" class="album-section">
-                <div class="album-content">
-                    <img src="media/channel-orange.jpg" alt="Channel Orange Album Cover" style="display: block; margin: 0 auto; transform: scale(0.65);">
-                    <div class="album-details">
-                        <p> Channel Orange is Frank Ocean's groundbreaking debut studio album, released in 2012. It’s a genre-defying blend of R&B, funk, and soul, tackling themes of love, unrequited feelings, and self-discovery. Featuring hits like "Thinkin Bout You" and "Pyramids," it showcases Ocean's poetic lyricism and storytelling. The album earned critical acclaim, won a Grammy for Best Urban Contemporary Album, and cemented Ocean’s reputation as a visionary artist redefining contemporary music.</p>
-                        <div class="tracklist-container">
-                            <ul class="tracklist">
-                                <li>1. Start</li>
-                                <li>2. Thinkin Bout You</li>
-                                <li>3. Fertilizer</li>
-                                <li>4. Sierra Leone</li>
-                                <li>5. Sweet Life</li>
-                                <li>6. Not Just Money</li>
-                                <li>7. Super Rich Kids</li>
-                                <li>8. Pilot Jones</li>
-                            </ul>
-                            <ul class="tracklist">
-                                <li>9. Crack Rock</li>
-                                <li>10. Pyramids</li>
-                                <li>11. Lost</li>
-                                <li>12. White</li>
-                                <li>13. Monks</li>
-                                <li>14. Bad Religion</li>
-                                <li>15. Pink Matter</li>
-                                <li>16. Forrest Gump</li>
-                            </ul>
-                        </div>
+        <section id="blonde" class="album-section"> <!-- Blonde Album Section -->
+            <div class="album-content">
+                <div class="album-media" style="position: relative; display: inline-block;"> <!--This section includes picture and spotify player-->
+                    <img src="media/blonde.jpeg" alt="Blonde Album Cover" style="display: block; margin: 0 auto; transform: scale(0.65); border-radius: 12px;">
+                    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/19YKaevk2bce4odJkP5L22?utm_source=generator&theme=0" width="100%" height="100" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                </div>
+                <div class="album-details"> <!--Description + Track list-->
+                    <p>
+                        Blonde is Frank Ocean's genre-defying masterpiece, released in 2016 to critical acclaim. It blends elements of R&B, pop, and experimental sounds
+                        with deeply personal, introspective lyrics. Themes of heartbreak, identity, and self-exploration shine through tracks like "Nights" and "Ivy."
+                        Ocean's innovative use of layered vocals and sparse instrumentation creates an ethereal soundscape, making Blonde a cultural landmark that
+                        solidified his status as a visionary in modern music.
+                    </p>
+                    <div class="tracklist-container">
+                        <ul class="tracklist">
+                            <li>1. Nikes</li>
+                            <li>2. Ivy</li>
+                            <li>3. Pink + White</li>
+                            <li>4. Be Yourself</li>
+                            <li>5. Solo</li>
+                            <li>6. Skyline To</li>
+                            <li>7. Self Control</li>
+                            <li>8. Good Guy</li>
+                        </ul>
+                        <ul class="tracklist">
+                            <li>9. Nights</li>
+                            <li>10. Solo (Reprise)</li>
+                            <li>11. Pretty Sweet</li>
+                            <li>12. Facebook Story</li>
+                            <li>13. Close to You</li>
+                            <li>14. White Ferrari</li>
+                            <li>15. Seigfried</li>
+                            <li>16. Godspeed</li>
+                        </ul>
                     </div>
                 </div>
-            </section>
-            
-            
-            <section id="nostalgia-ultra" class="album-section">
-                <div class="album-content">
-                    <img src="media/nostalgia-ultra.jpg" alt="Nostalgia Ultra Album Cover" style="display: block; margin: 0 auto; transform: scale(0.65);">
-                    <div class="album-details">
-                        <p>Nostalgia, Ultra is Frank Ocean’s 2011 debut mixtape, a raw and innovative introduction to his talent. The project redefines R&B, blending heartfelt storytelling with eclectic production, sampling artists like Coldplay and The Eagles. Tracks like "Novacane" and "Swim Good" explore themes of love, fame, and longing. Nostalgia, Ultra gained widespread critical acclaim, setting the stage for Ocean's rise as one of the most influential and introspective voices in contemporary music.</p>
-                        <div class="tracklist-container">
-                            <ul class="tracklist">
-                                <li>1. Start</li>
-                                <li>2. Thinkin Bout You</li>
-                                <li>3. Fertilizer</li>
-                                <li>4. Sierra Leone</li>
-                                <li>5. Sweet Life</li>
-                                <li>6. Not Just Money</li>
-                                <li>7. Super Rich Kids</li>
-                                <li>8. Pilot Jones</li>
-                            </ul>
-                            <ul class="tracklist">
-                                <li>9. Crack Rock</li>
-                                <li>10. Pyramids</li>
-                                <li>11. Lost</li>
-                                <li>12. White</li>
-                                <li>13. Monks</li>
-                                <li>14. Bad Religion</li>
-                                <li>15. Pink Matter</li>
-                                <li>16. Forrest Gump</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="endless" class="album-section">
-                <div class="album-content">
-                    <img src="media/endless.jpg" alt="endless Album Cover" style="display: block; margin: 0 auto; transform: scale(0.65);">
-                    <div class="album-details">
-                        <p>Endless is Frank Ocean's 2016 visual album, a meditative, experimental project showcasing his artistic evolution. Accompanied by a 45-minute video, the album features atmospheric tracks blending ambient sounds with Ocean's signature vocals. Songs like "At Your Best (You Are Love)" highlight his ability to transform minimalism into profound emotion. Though initially overshadowed by Blonde, Endless remains a significant, enigmatic piece in Ocean’s discography, celebrated for its raw, introspective tone.</p>
-                        <div class="tracklist-container">
-                            <ul class="tracklist">
-                                <li>1. Start</li>
-                                <li>2. Thinkin Bout You</li>
-                                <li>3. Fertilizer</li>
-                                <li>4. Sierra Leone</li>
-                                <li>5. Sweet Life</li>
-                                <li>6. Not Just Money</li>
-                                <li>7. Super Rich Kids</li>
-                                <li>8. Pilot Jones</li>
-                            </ul>
-                            <ul class="tracklist">
-                                <li>9. Crack Rock</li>
-                                <li>10. Pyramids</li>
-                                <li>11. Lost</li>
-                                <li>12. White</li>
-                                <li>13. Monks</li>
-                                <li>14. Bad Religion</li>
-                                <li>15. Pink Matter</li>
-                                <li>16. Forrest Gump</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section id="blonde" class="album-section">
-                <div class="album-content">
-                    <img src="media/blonde.jpeg" alt="Blonde Album Cover" style="display: block; margin: 0 auto; transform: scale(0.65);">
-                    <div class="album-details">
-                        <p><strong>Description:</strong> Blonde is Frank Ocean's genre-defying masterpiece, released in 2016 to critical acclaim. It blends elements of R&B, pop, and experimental sounds with deeply personal, introspective lyrics. Themes of heartbreak, identity, and self-exploration shine through tracks like "Nights" and "Ivy." Ocean's innovative use of layered vocals and sparse instrumentation creates an ethereal soundscape, making Blonde a cultural landmark that solidified his status as a visionary in modern music.</p>
-                        <div class="tracklist-container">
-                            <ul class="tracklist">
-                                <li>1. Start</li>
-                                <li>2. Thinkin Bout You</li>
-                                <li>3. Fertilizer</li>
-                                <li>4. Sierra Leone</li>
-                                <li>5. Sweet Life</li>
-                                <li>6. Not Just Money</li>
-                                <li>7. Super Rich Kids</li>
-                                <li>8. Pilot Jones</li>
-                            </ul>
-                            <ul class="tracklist">
-                                <li>9. Crack Rock</li>
-                                <li>10. Pyramids</li>
-                                <li>11. Lost</li>
-                                <li>12. White</li>
-                                <li>13. Monks</li>
-                                <li>14. Bad Religion</li>
-                                <li>15. Pink Matter</li>
-                                <li>16. Forrest Gump</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        
+            </div>
+        </section>
     </main>
-    <footer class="copyright">
-
-        © 2024 Blonde Tribute. All Rights Reserved. Unauthorized reproduction prohibited. Licensed by Blonded Records.
-
-
-
+    <footer class="footer"><!--Footer-->
+        <div class="footer-container">
+            <div class="footer-credits">
+                <p>&copy; Blonded Records reserves all rights, including the right to pursue legal action for any unauthorized use, duplication, or distribution of its copyrighted materials.</p>
+                <p>"For when the sun sets, and the tides recede, we'll still be listening."</p>
+            </div>
+        </div>
     </footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
