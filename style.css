@@ -53,7 +53,7 @@ body {
 }
 
 h1 {
-  font-size: 20px; /* Large heading size */
+  font-size: 50px; /* Large heading size */
 }
 
 .section h2 {
@@ -223,54 +223,6 @@ footer {
   margin: 5px 0; /* Adds space between links */
 }
 
-/* Link Styling */
-.footer-links a {
-  color: #e5f33d; /* Bright yellow for links */
-  text-decoration: none; /* Removes underline */
-  font-size: 1rem; /* Font size */
-  transition: color 0.3s ease; /* Smooth hover effect */
-}
-
-/* Hover effect for footer links */
-.footer-links a:hover {
-  color: #8b94c2; /* Changes to Lavender Blue on hover */
-}
-
-/* Footer Credits Section */
-.footer-credits p {
-  font-size: 0.9rem; /* Font size */
-  margin: 5px 0; /* Adds spacing */
-  color: #8b94c2; /* Soft lavender color */
-}
-
-/* Social Media Icons in Footer */
-.footer-social .social-icons {
-  display: flex; /* Aligns icons in a row */
-  justify-content: center; /* Centers the icons */
-  gap: 15px; /* Adds space between the icons */
-}
-
-/* Individual Social Media Icon in Footer */
-.footer-social .icon {
-  width: 30px; /* Icon width */
-  height: 30px; /* Icon height */
-  border-radius: 50%; /* Makes icons circular */
-  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
-  opacity: 0.8; /* Adds slight transparency */
-  cursor: pointer; /* Changes cursor to pointer */
-}
-
-/* Hover effect for social media icons in footer */
-.footer-social .icon:hover {
-  transform: scale(1.2); /* Zooms in slightly */
-  opacity: 1; /* Removes transparency */
-}
-
-/* Navigation Bar */
-.nav-bar-wrapper{
-  font-size: 50px; /* Font size for header */
-}
-
 /* Image Container */
 .image-container {
   position: relative; /* Position relative to container */
@@ -283,7 +235,7 @@ footer {
   left: 50%; /* Center horizontally */
   transform: translate(-50%, -50%); /* Center image */
   height: 425px; /* Fixed height */
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7); /* Shadow for depth */
+  box-shadow: 0px 8px 20px rgba(255, 251, 4, 0.7); /* Shadow for depth */
   border-radius: 15px; /* Rounded corners */
   transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth hover effects */
   margin-top:50px;
@@ -327,7 +279,7 @@ footer {
   text-align: center; /* Center-align the text */
 }
 
-.fun-fact-section button {
+.interactive-div {
   background-color: #8b94c2; /* Button background color */
   color: #21232f; /* Button text color */
   border: 2px solid #e5f33d; /* Add a border */
@@ -340,7 +292,7 @@ footer {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add depth */
 }
 
-.fun-fact-section button:hover {
+.interactive-div :hover {
   background-color: #e5f33d; /* Change background color on hover */
   color: #21232f; /* Change text color on hover */
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 0 10px #8b94c2; /* Add glow on hover */
@@ -449,6 +401,11 @@ footer {
   box-sizing: border-box; /* Include padding in width calculation */
 }
 
+/* Navigation Bar */
+.nav-bar-wrapper{
+  font-size: 50px; /* Font size for header */
+}
+
 .nav-logo a {
   font-size: 1.8rem; /* Font size for logo */
   font-family: 'Montserrat', sans-serif; /* Set font style */
@@ -545,7 +502,8 @@ footer {
 }
 
 .tracklist-container {
-  display: flex; /* Use flexbox for layout */
+  display: flex; /* Use flex
+  box for layout */
   justify-content: space-between; /* Space items evenly */
   gap: 20px; /* Space between tracklists */
   margin-top: 20px; /* Add space above the container */
@@ -969,8 +927,9 @@ footer {
 
   .biography {
     width: 100%; /* Make the biography container full width */
-    height: auto; /* Allow height to adjust dynamically */
+    height: 300px; /* Allow height to adjust dynamically */
     margin-bottom:0;
+    gap: 0;
   }
 
   .biography-right-top {
@@ -1101,12 +1060,56 @@ footer {
   .live-text-overlay {
     font-size: 50px;
     top: 30%; /* Decrease this value to move it further up */
-  transform: translate(-50%, -30%); /* Adjust transform to match the new position */
+    transform: translate(-50%, -30%); /* Adjust transform to match the new position */
+    z-index: 10111;
+    color:white;
   }
 
   .social-media-icon a{
     width: 20px; /* Smaller size for small screens */
     height: 20px; /* Smaller size for small screens */
   }
+}
+
+.footer-links a {
+  color: #e5f33d; /* Bright yellow for links */
+  text-decoration: none; /* Removes underline */
+  font-size: 1rem; /* Font size */
+  transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for footer links */
+.footer-links a:hover {
+  color: #8b94c2; /* Changes to Lavender Blue on hover */
+}
+
+/* Footer Credits Section */
+.footer-credits p {
+  font-size: 0.9rem; /* Font size */
+  margin: 5px 0; /* Adds spacing */
+  color: #8b94c2; /* Soft lavender color */
+}
+
+/* Social Media Icons in Footer */
+.footer-social .social-icons {
+  display: flex; /* Aligns icons in a row */
+  justify-content: center; /* Centers the icons */
+  gap: 15px; /* Adds space between the icons */
+}
+
+/* Individual Social Media Icon in Footer */
+.footer-social .icon {
+  width: 30px; /* Icon width */
+  height: 30px; /* Icon height */
+  border-radius: 50%; /* Makes icons circular */
+  transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
+  opacity: 0.8; /* Adds slight transparency */
+  cursor: pointer; /* Changes cursor to pointer */
+}
+
+/* Hover effect for social media icons in footer */
+.footer-social .icon:hover {
+  transform: scale(1.2); /* Zooms in slightly */
+  opacity: 1; /* Removes transparency */
 }
 
