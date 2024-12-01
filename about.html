@@ -11,33 +11,21 @@
 </head>
 <body>
     <header>
-        <section class="nav-bar-wrapper">
-            <nav class="nav-bar"> <!-- Navigation bar with site links -->
-                <div class="nav-logo">
-                    <a href="https://www.homer.com/">Frank Ocean</a> <!-- Logo with clickable link -->
-                </div>
-                <ul class="nav-links"> <!--Navigation Buttons-->
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="music.html">Music</a></li>
-                    <li><a href="events.html">Events</a></li>
-                </ul>
-            </nav>
-        </section>
+            <div class="nav-bar-wrapper">
+                <nav class="nav-bar"> <!-- Navigation bar with site links -->
+                    <div class="nav-logo">
+                        <a href="https://www.homer.com/">Frank</a> <!-- Logo with clickable link -->
+                    </div>
+                    <ul class="nav-links"> <!--Navigation Buttons-->
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="music.html">Music</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </nav>
+            </div>
         <div class="image-container">
             <img src="media/frankimage1.png" alt="Centered Image"> <!-- Centered hero image -->
-        </div>
-        </div>
-        <div class="social-media-icons"> <!-- Social Media Links -->
-            <a href="https://youtube.com" target="_blank">
-                <img src="media/youtube-icon.png" alt="Youtube" class="icon">
-            </a>
-            <a href="https://facebook.com" target="_blank">
-                <img src="media/facebook-icon.png" alt="Facebook" class="icon">
-            </a>
-            <a href="https://instagram.com" target="_blank">
-                <img src="media/instagram-icon.png" alt="Instagram" class="icon">
-            </a>
         </div>
     </header>
 <!-- Main Content Section -->
@@ -45,7 +33,7 @@
         <div class="bio-container">
             <div class="biography">
                 <div class="biography-right-top"> <!-- Highlighted top text -->
-                    Your favorite artist's favorite artist
+                    <h2>Your favorite artist's favorite artist</h2>
                 </div>
                 <div class="biography-right-bottom"> <!-- Description about Frank Ocean -->
                     Frank Ocean is a critically acclaimed singer, songwriter, and producer known for his innovative blend of R&B, soul, and experimental sounds.
@@ -59,79 +47,40 @@
                 Your browser does not support the video tag.
             </video>
         </div>
-        <!-- Timeline Section -->
-        <section class="timeline">
-            <div class="info">
-                <img width="50" height="50" src="https://assets.codepen.io/210284/face.svg" alt="" />
-                <h2>Frank's History</h2>
-                <p>This is Frank's History</p>
-                <p>
-                    <a href="">Learn more &gt;</a> <!-- Link to more detailed history -->
-                </p>
-            </div>
-            <!-- Timeline Entries -->
-            <ol>
-                <li>
-                    <div>
-                        <time>2009</time> Started working with Odd Future
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>2010</time> Signed First Recording Deal
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>2011</time> Nostalgia Ultra is released
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>2012</time> Channel Orange is released
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>2013</time> Won Grammy for Best Contemporary Album
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>2016</time> Blonde is released
-                    </div>
-                </li>
-                <li>
-                    <div>
-                        <time>2023</time> Coachella Performance
-                    </div>
-                </li>
-            </ol>
-        </section>
     </main>
-
-    <footer class="footer"> <!--Footer-->
-        <section class="mailing-list-section"> <!--Mailing list-->
-            <h2>Wanna be 'SOLO' with Frank?</h2><!--Catchphrase for mail list-->
+    <footer>
+        <section class="mailing-list-section">
+            <!-- Mailing list -->
+            <h2>Wanna be 'SOLO' with Frank?</h2>
             <p>Know when he is in your city!</p>
             <form id="mailing-list-form">
-                <div class="form-group"><!--Mailing list form-->
-                    <input type="text" id="name" name="name" placeholder="Your Name" required> <!--Name entry-->
+                <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
                 </div>
                 <div class="form-group">
-                    <input type="email" id="email" name="email" placeholder="Your Email" required> <!--Email entry-->
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
                 </div>
                 <button type="submit" class="subscribe-button">Subscribe</button>
             </form>
-        </section>
-        <div class="footer-container">
+            </section>
+        <div class="social-container">
+            <div class="social-media-icons"> <!-- Social Media Links -->
+                <a href="https://youtube.com" target="_blank">
+                    <img src="media/youtube-icon.png" alt="Youtube" class="icon">
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="media/facebook-icon.png" alt="Facebook" class="icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="media/instagram-icon.png" alt="Instagram" class="icon">
+                </a>
+            </div>
             <div class="footer-credits">
                 <p>&copy; Blonded Records reserves all rights, including the right to pursue legal action for any unauthorized use, duplication, or distribution of its copyrighted materials.</p>
                 <p>"For when the sun sets, and the tides recede, we'll still be listening."</p>
             </div>
         </div>
     </footer>
-
     <script src="script.js" defer></script>
 </body>
 </html>
