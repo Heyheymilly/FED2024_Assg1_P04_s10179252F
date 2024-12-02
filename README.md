@@ -1,4 +1,4 @@
-# FED2024_Assg1_P04_s10179252FFED2024_Assg1_P04_s10179252F
+# FED2024_Assg1_P04_s10179252F
 
 Milton Neo’s FED Project: Frank Ocean’s Musician Webpage
 
