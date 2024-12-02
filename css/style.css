@@ -85,7 +85,7 @@ h1 {
   transform: scale(1.2); /* Zooms in slightly on hover */
   opacity: 1; /* Removes transparency on hover */
 }
-
+/*-----------------INDEX PAGE---------------------*/
 /* Hero Section */
 .hero {
   display: flex; /* Uses a flexbox layout */
@@ -184,45 +184,6 @@ h1 {
   background-color: #1e334a; /* Darkens the button on hover */
 }
 
-/* Footer Container */
-footer {
-  background-color: #1c1e26; /* Dark melancholic background */
-  color: #f0f0f0; /* Light text */
-  font-family: 'Arial', sans-serif; /* Sets the font family */
-  text-align: center; /* Centers the content */
-}
-
-/* Footer Content Container */
-.footer-container {
-  max-width: 1200px; /* Limits the width of the footer */
-  margin: 0 auto; /* Centers the footer content */
-  display: flex; /* Uses flexbox layout */
-  flex-wrap: wrap; /* Wraps content to the next line if necessary */
-  justify-content: center; /* Centers the content */
-  flex-direction: column;
-
-}
-
-/* Poetic Text in Footer */
-.footer-poetry p {
-  font-size: 1.2rem; /* Font size */
-  color: #8b94c2; /* Lavender Blue color for a soft tone */
-  margin-bottom: 20px; /* Adds spacing below */
-  font-style: italic; /* Italicizes the text */
-  line-height: 1.8; /* Increases line spacing */
-}
-
-/* Quick Links Styling */
-.footer-links ul {
-  list-style: none; /* Removes bullet points */
-  padding: 0; /* Removes default padding */
-}
-
-/* Individual Quick Link Items */
-.footer-links li {
-  margin: 5px 0; /* Adds space between links */
-}
-
 /* Image Container */
 .image-container {
   position: relative; /* Position relative to container */
@@ -245,59 +206,7 @@ footer {
   box-shadow: 0px 12px 25px rgba(229, 243, 61, 0.8); /* Glow effect on hover */
   transform: translate(-50%, -50%) scale(1.05); /* Zoom effect on hover */
 }
-
-.fun-fact-section {
-  text-align: center; /* Center-align the section */
-  margin: 20px auto; /* Center the section */
-  padding: 20px; /* Add padding */
-  max-width: 600px; /* Limit width */
-  background: linear-gradient(135deg, #21232f, #8b94c2); /* Add a gradient background */
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 0 10px rgba(229, 243, 61, 0.4); /* Add shadows for depth */
-  font-family: Arial, sans-serif; /* Set font family */
-  color: #e5f33d; /* Text color */
-  overflow: hidden; /* Prevent overflow */
-}
-
-.fun-fact-section h2 {
-  font-size: 1.8rem; /* Larger font size for the heading */
-  color: #e5f33d; /* Text color */
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the text */
-}
-
-.fun-fact-section p {
-  font-size: 1.2rem; /* Font size for the paragraph */
-  color: #c1b7c0; /* Text color */
-  margin: 15px 0; /* Add vertical spacing */
-  height: 60px; /* Fixed height */
-  line-height: 1.4; /* Line spacing */
-  overflow: hidden; /* Hide overflow text */
-  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
-  display: flex; /* Flex container */
-  align-items: center; /* Vertically center content */
-  justify-content: center; /* Horizontally center content */
-  text-align: center; /* Center-align the text */
-}
-
-.interactive-div {
-  background-color: #8b94c2; /* Button background color */
-  color: #21232f; /* Button text color */
-  border: 2px solid #e5f33d; /* Add a border */
-  padding: 10px 20px; /* Add padding */
-  font-size: 1rem; /* Font size */
-  font-weight: bold; /* Bold text */
-  border-radius: 5px; /* Rounded corners */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add depth */
-}
-
-.interactive-div :hover {
-  background-color: #e5f33d; /* Change background color on hover */
-  color: #21232f; /* Change text color on hover */
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 0 10px #8b94c2; /* Add glow on hover */
-}
-
+/*-----------------ABOUT PAGE-------------------*/
 .bio-container {
   display: flex; /* Flex container */
   width: 100%; /* Full width */
@@ -453,6 +362,72 @@ footer {
 .nav-links li a:hover::after {
   width: 100%; /* Expand underline on hover */
 }
+
+.mailing-list-section {
+  text-align: center; /* Center-align text inside the section */
+  padding: 50px 20px; /* Add vertical and horizontal padding */
+  background: linear-gradient(135deg, #21232f, #8b94c2); /* Apply navy to lavender gradient */
+  border-radius: 10px; /* Round the corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 0 10px rgba(229, 243, 61, 0.4); /* Add shadow and subtle glow */
+  margin: 20px auto; /* Center the section with 20px vertical margin */
+  width: 1260px; /* Full width of the section */
+}
+
+.mailing-list-section h2 {
+  font-size: 2rem; /* Set font size for the heading */
+  color: #e5f33d; /* Set heading color to bright yellow */
+  margin-bottom: 10px; /* Add margin below the heading */
+}
+
+.mailing-list-section p {
+  font-size: 1rem; /* Set font size for the paragraph */
+  color: #c1b7c0; /* Set text color to lavender grey */
+  margin-bottom: 20px; /* Add margin below the paragraph */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Add spacing below each form group */
+}
+
+#mailing-list-form input {
+  width: 50%; /* Make input fill the width of its container */
+  padding: 10px; /* Add padding inside the input */
+  font-size: 1rem; /* Set font size for the input text */
+  border: 2px solid #8b94c2; /* Add lavender border */
+  border-radius: 5px; /* Round the input corners */
+  background-color: #21232f; /* Set input background to navy */
+  color: #e5f33d; /* Set input text color to yellow */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+#mailing-list-form input::placeholder {
+  color: #8b94c2; /* Set placeholder text color to lavender */
+}
+
+#mailing-list-form input:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #e5f33d; /* Highlight border with yellow on focus */
+  box-shadow: 0 0 10px rgba(229, 243, 61, 0.6); /* Add a glow effect on focus */
+}
+
+.subscribe-button {
+  padding: 10px 20px; /* Add padding around the button text */
+  font-size: 1rem; /* Set font size */
+  font-weight: bold; /* Make text bold */
+  color: #21232f; /* Set button text color to navy */
+  background-color: #e5f33d; /* Set button background to bright yellow */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Round the button corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Add smooth transition for hover effects */
+}
+
+.subscribe-button:hover {
+  background-color: #c1b7c0; /* Change background to lavender grey on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 15px rgba(229, 243, 61, 0.5); /* Add a glow and shadow effect on hover */
+}
+
+/*------------------MUSIC PAGE------------*/
 
 .image-gallery {
   margin-top: 200px; /* Add space above the gallery */
@@ -628,6 +603,7 @@ footer {
   width: 100vw; /* Full viewport width */
 }
 
+/*--------------------Fanzone*----------------------*/
 .live-video-header {
   position: relative; /* Position relative for child elements */
   height: 100vh; /* Full viewport height */
@@ -734,70 +710,6 @@ footer {
   to {
     opacity: 1; /* End animation with full opacity */
   }
-}
-
-.mailing-list-section {
-  text-align: center; /* Center-align text inside the section */
-  padding: 50px 20px; /* Add vertical and horizontal padding */
-  background: linear-gradient(135deg, #21232f, #8b94c2); /* Apply navy to lavender gradient */
-  border-radius: 10px; /* Round the corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 0 10px rgba(229, 243, 61, 0.4); /* Add shadow and subtle glow */
-  margin: 20px auto; /* Center the section with 20px vertical margin */
-  width: 1260px; /* Full width of the section */
-}
-
-.mailing-list-section h2 {
-  font-size: 2rem; /* Set font size for the heading */
-  color: #e5f33d; /* Set heading color to bright yellow */
-  margin-bottom: 10px; /* Add margin below the heading */
-}
-
-.mailing-list-section p {
-  font-size: 1rem; /* Set font size for the paragraph */
-  color: #c1b7c0; /* Set text color to lavender grey */
-  margin-bottom: 20px; /* Add margin below the paragraph */
-}
-
-.form-group {
-  margin-bottom: 15px; /* Add spacing below each form group */
-}
-
-#mailing-list-form input {
-  width: 50%; /* Make input fill the width of its container */
-  padding: 10px; /* Add padding inside the input */
-  font-size: 1rem; /* Set font size for the input text */
-  border: 2px solid #8b94c2; /* Add lavender border */
-  border-radius: 5px; /* Round the input corners */
-  background-color: #21232f; /* Set input background to navy */
-  color: #e5f33d; /* Set input text color to yellow */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
-}
-
-#mailing-list-form input::placeholder {
-  color: #8b94c2; /* Set placeholder text color to lavender */
-}
-
-#mailing-list-form input:focus {
-  outline: none; /* Remove default focus outline */
-  border-color: #e5f33d; /* Highlight border with yellow on focus */
-  box-shadow: 0 0 10px rgba(229, 243, 61, 0.6); /* Add a glow effect on focus */
-}
-
-.subscribe-button {
-  padding: 10px 20px; /* Add padding around the button text */
-  font-size: 1rem; /* Set font size */
-  font-weight: bold; /* Make text bold */
-  color: #21232f; /* Set button text color to navy */
-  background-color: #e5f33d; /* Set button background to bright yellow */
-  border: none; /* Remove button border */
-  border-radius: 5px; /* Round the button corners */
-  cursor: pointer; /* Change cursor to pointer on hover */
-  transition: background-color 0.3s, box-shadow 0.3s; /* Add smooth transition for hover effects */
-}
-
-.subscribe-button:hover {
-  background-color: #c1b7c0; /* Change background to lavender grey on hover */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 0 15px rgba(229, 243, 61, 0.5); /* Add a glow and shadow effect on hover */
 }
 
 /* Section Styling */
@@ -1107,3 +1019,93 @@ footer {
   opacity: 1; /* Removes transparency */
 }
 
+/* Footer Container */
+footer {
+  background-color: #1c1e26; /* Dark melancholic background */
+  color: #f0f0f0; /* Light text */
+  font-family: 'Arial', sans-serif; /* Sets the font family */
+  text-align: center; /* Centers the content */
+}
+
+/* Footer Content Container */
+.footer-container {
+  max-width: 1200px; /* Limits the width of the footer */
+  margin: 0 auto; /* Centers the footer content */
+  display: flex; /* Uses flexbox layout */
+  flex-wrap: wrap; /* Wraps content to the next line if necessary */
+  justify-content: center; /* Centers the content */
+  flex-direction: column;
+
+}
+
+/* Poetic Text in Footer */
+.footer-poetry p {
+  font-size: 1.2rem; /* Font size */
+  color: #8b94c2; /* Lavender Blue color for a soft tone */
+  margin-bottom: 20px; /* Adds spacing below */
+  font-style: italic; /* Italicizes the text */
+  line-height: 1.8; /* Increases line spacing */
+}
+
+/* Quick Links Styling */
+.footer-links ul {
+  list-style: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+}
+
+/* Individual Quick Link Items */
+.footer-links li {
+  margin: 5px 0; /* Adds space between links */
+}
+
+.fun-fact-section {
+  text-align: center; /* Center-align the section */
+  margin: 20px auto; /* Center the section */
+  padding: 20px; /* Add padding */
+  max-width: 600px; /* Limit width */
+  background: linear-gradient(135deg, #21232f, #8b94c2); /* Add a gradient background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 0 10px rgba(229, 243, 61, 0.4); /* Add shadows for depth */
+  font-family: Arial, sans-serif; /* Set font family */
+  color: #e5f33d; /* Text color */
+  overflow: hidden; /* Prevent overflow */
+}
+
+.fun-fact-section h2 {
+  font-size: 1.8rem; /* Larger font size for the heading */
+  color: #e5f33d; /* Text color */
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to the text */
+}
+
+.fun-fact-section p {
+  font-size: 1.2rem; /* Font size for the paragraph */
+  color: #c1b7c0; /* Text color */
+  margin: 15px 0; /* Add vertical spacing */
+  height: 60px; /* Fixed height */
+  line-height: 1.4; /* Line spacing */
+  overflow: hidden; /* Hide overflow text */
+  text-overflow: ellipsis; /* Add ellipsis for overflowing text */
+  display: flex; /* Flex container */
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+  text-align: center; /* Center-align the text */
+}
+
+.interactive-div {
+  background-color: #8b94c2; /* Button background color */
+  color: #21232f; /* Button text color */
+  border: 2px solid #e5f33d; /* Add a border */
+  padding: 10px 20px; /* Add padding */
+  font-size: 1rem; /* Font size */
+  font-weight: bold; /* Bold text */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transitions */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add depth */
+}
+
+.interactive-div :hover {
+  background-color: #e5f33d; /* Change background color on hover */
+  color: #21232f; /* Change text color on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3), 0 0 10px #8b94c2; /* Add glow on hover */
+}
