@@ -78,7 +78,7 @@ h1 {
   transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth hover effect */
   opacity: 0.8; /* Adds slight transparency for subtle effect */
   border-radius: 50%; /* Makes the icons circular */
-}
+} 
 
 /* Hover effect for social media icons */
 .social-media-icons .icon:hover {
