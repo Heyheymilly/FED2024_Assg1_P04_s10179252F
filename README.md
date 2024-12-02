@@ -1,5 +1,5 @@
 # FED2024_Assg1_P04_s10179252F
-
+*For my commit history, the individual commit histories were accidentally deleted. But as a whole the commit history is there, please have a look*
 Milton Neo’s FED Project: Frank Ocean’s Musician Webpage
 
 This project is dedicated to celebrating the artistry of Frank Ocean by creating a website that captures and showcases his unique creative essence. Frank Ocean is an artist who writes about love, life and grief with a very specific moody and reflective style that can be difficult to understand at first. By creating this website, I hope to be able to share his artistry with the world more readily by providing a website that introduces user’s to his aesthetic and his art. Through a sleek and modern interface, the site immerses users in the pensive and melancholic style that defines his music and persona. By blending aesthetics, music, and insightful content, the website invites users to delve deeper into who Frank Ocean is, exploring the stories, emotions, and inspiration behind his work. Overall, it aims to give the user a precursory dive into his art. 
