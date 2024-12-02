@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fanzone</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,675;1,675&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>  
+    <header>
+        <div class="nav-bar-wrapper">
+            <nav class="nav-bar"> <!-- Navigation bar with site links -->
+                <div class="nav-logo">
+                    <a href="https://www.homer.com/">Frank</a> <!-- Logo with clickable link -->
+                </div>
+                <ul class="nav-links"> <!--Navigation Buttons-->
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="music.html">Music</a></li>
+                    <li><a href="fanzone.html">Fanzone</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="live-video-header"> 
+            <div class="live-video-overlay"><!--Big background video for hero-->
+                <video autoplay muted loop playsinline class="live-video">
+                    <source src="../media/events-video.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="live-text-overlay"> <!--Text overlay for big background video-->
+                    YOU DON’T GOTTA BE SOLO
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="live-gallery-dropdown"> <!--Gallery dropdown-->
+            <label for="live-event-selector">Join Frank in:</label> <!--Event selector-->
+            <select id="live-event-selector"><!--City options-->
+                <option value="ny">New York (NY)</option>
+                <option value="la">Los Angeles (LA)</option>
+                <option value="ldn">London (LDN)</option>
+            </select>
+        </div>
+
+        <div id="live-gallery-container" class="hidden"><!--Gallery of concert images-->
+            <div class="live-gallery-item live-ny">
+                <img src="../media/FYF-1.jpg" alt="NY Event Image 1">
+            </div>
+            <div class="live-gallery-item live-ny">
+                <img src="../media/fyf-2.jpg" alt="NY Event Image 2">
+            </div>
+            <div class="live-gallery-item live-ny">
+                <img src="../media/fyf-3.jpg" alt="NY Event Image 3">
+            </div>
+            <div class="live-gallery-item live-ny">
+                <img src="../media/fyf-4.jpg" alt="NY Event Image 4">
+            </div>
+            <div class="live-gallery-item live-la">
+                <img src="../media/LA-1.jpg" alt="LA Event Image 1">
+            </div>
+            <div class="live-gallery-item live-la">
+                <img src="../media/LA-2.jpg" alt="LA Event Image 2">
+            </div>
+            <div class="live-gallery-item live-ldn">
+                <img src="../media/LDN-1.jpg" alt="LDN Event Image 1">
+            </div>
+            <div class="live-gallery-item live-ldn">
+                <img src="../media/LDN-2.jpg" alt="LDN Event Image 2">
+            </div>
+        </div>
+
+        <div class="fun-fact-section"> <!--Cute trivia section-->
+            <h2>Do you know Frank?</h2>
+            <p id="fun-fact">Click the button to see a fun fact!</p>
+            <div id="fact-button" class = "interactive-div">Show me a fun fact</div> <!--Button to show a fun fact-->
+        </div>
+
+
+        <section id="lyrics-explained">
+            <h2>Frank Ocean Lyrics Explained</h2>   
+            <p>Explore the beauty, depth, and emotion behind Frank Ocean's iconic lyrics.</p>
+            
+            <div class="lyrics-container">
+                <div class="lyric-card">
+                    <h3>"We’ll never be those kids again"</h3>
+                    <p><strong>Song:</strong> Ivy</p>
+                    <p>This poignantly encapsulates the universal longing for lost innocence and the irretrievable nature of youth,
+                         reflecting on how time's passage transforms carefree childhood moments into bittersweet memories tinged with nostalgia, 
+                         regret, and an awareness of how growth necessitates the loss of simplicity, as relationships evolve and individuals confront the complexities of 
+                         adulthood, highlighting the duality of cherishing what once was while grappling with the inevitability of change, ultimately serving as a tender reminder
+                          of the beauty, fragility, and impermanence of formative experiences that shape who we are but remain unreachable.</p>
+                </div>
+                <div class="lyric-card">
+                    <h3>"You used to live a blonded life"</h3>
+                    <p><strong>Song:</strong> Blonde</p>
+                    <p>Symbolizes personal transformation and the shedding of past identities, where cutting hair represents a physical and emotional act of change or growth, 
+                        reflecting how people evolve from former versions of themselves, with the phrase "blonded life" hinting at a freer, perhaps more expressive or uninhibited time that 
+                        has since been left behind, evoking nostalgia and a sense of loss while acknowledging the inevitability of moving forward, even as the echoes of that previous self linger 
+                        in memory and identity.</p>
+                </div>
+                <div class="lyric-card">
+                    <h3>"I’ll be the boyfriend in your wet dreams tonight"</h3>
+                    <p><strong>Song:</strong> Self Control</p>
+                    <p>Captures the bittersweet essence of unrequited love and longing, as the narrator offers themselves as a fleeting, imagined companion in the intimate vulnerability of a dream,
+                         reflecting both the intensity of their feelings and the painful reality of emotional distance, where they exist only in the other person's subconscious desires, unable to bridge
+                          the gap in real life, creating a poignant contrast between fantasy and the unfulfilled yearning for genuine connection.</p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <footer> <!--Footer-->
+        <div class="social-container">
+            <div class="social-media-icons"> <!-- Social Media Links -->
+                <a href="https://youtube.com" target="_blank">
+                    <img src="../media/youtube-icon.png" alt="Youtube" class="icon">
+                </a>
+                <a href="https://facebook.com" target="_blank">
+                    <img src="../media/facebook-icon.png" alt="Facebook" class="icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="../media/instagram-icon.png" alt="Instagram" class="icon">
+                </a>
+            </div>
+            <div class="footer-credits">
+                <p>&copy; Blonded Records reserves all rights, including the right to pursue legal action for any unauthorized use, duplication, or distribution of its copyrighted materials.</p>
+                <p>"For when the sun sets, and the tides recede, we'll still be listening."</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../javascript/script.js" defer></script>
+</body>
+</html>

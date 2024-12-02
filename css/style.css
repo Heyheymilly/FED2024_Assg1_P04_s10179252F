@@ -90,7 +90,7 @@ h1 {
 .hero {
   display: flex; /* Uses a flexbox layout */
   height: 100vh; /* Full viewport height */
-  background: url('media/hero-image.jpg') no-repeat center center; /* Sets the background image */
+  background: url('../media/hero-image.jpg') no-repeat center center; /* Sets the background image */
   background-size: cover; /* Ensures the background image covers the entire container */
   position: relative; /* Allows for absolute positioning of child elements */
 }
@@ -547,12 +547,6 @@ footer {
   width: 55%; /* Set cover width to 55% of the container */
   border-radius: 15px; /* Add rounded corners */
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6); /* Enhance depth with shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Add smooth transitions */
-}
-
-.album-cover:hover {
-  transform: scale(1.05); /* Add a slight zoom effect on hover */
-  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.7); /* Deepen shadow on hover */
 }
 
 /* Album Details */
